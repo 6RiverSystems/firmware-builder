@@ -6,7 +6,7 @@ orbs:
 jobs:
   publish:
     docker:
-      - image: circleci/node:12
+      - image: cimg/ruby:2.7.4
     steps:
       - checkout
       - setup_remote_docker:
